@@ -4,4 +4,4 @@ black
 pytest==7.1.1
 flake8>=3.9.0
 dvc
-cml-py
+cml==0.0.1
