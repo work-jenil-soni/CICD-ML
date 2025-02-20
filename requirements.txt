@@ -1,9 +1,7 @@
 pandas
 scikit-learn
 black
-dvc>=2.0.0
-dvc[gdrive]
 pytest==7.1.1
-tox==3.24.0
 flake8>=3.9.0
-cml
+dvc
+cml-py
