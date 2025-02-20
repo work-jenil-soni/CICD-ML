@@ -23,7 +23,7 @@ num_col = [0, 4]
 
 transform = ColumnTransformer(
     [
-        ("encoder", OrdinalEncoder(), cat_col),
+        ("encoder", OrdinalEncoder(handle_unknown='ignore'), cat_col),
         ("num_imputer", SimpleImputer(strategy='mean'), num_col),
         ("num_scaler", StandardScaler(), num_col)
     ]
