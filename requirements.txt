@@ -6,4 +6,4 @@ dvc[gdrive]
 pytest==7.1.1
 tox==3.24.0
 flake8>=3.9.0
-cml==0.1.0
+cml
